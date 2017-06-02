@@ -100,10 +100,7 @@ a:hover{
 }
 /*work*/
 
-#work{
-	width: 100%;
-}
-.box-uno{
+.box-uno.flex-container{
 	flex-direction: column;	
 	padding: 70px;
 	text-align: center;
@@ -112,7 +109,7 @@ a:hover{
 .box-uno img{
 	max-width: 100%;
 }
-.box-big{
+.box-big.flex-container{
 	flex-wrap: wrap;
 	justify-content: space-around;
 	text-align: center;
